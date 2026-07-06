@@ -1,36 +1,211 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# <> Cyborg Tecnologia
 
-## Getting Started
+> Engineering platforms, institutional runtimes and domain-driven software.
 
-First, run the development server:
+![Next.js](https://img.shields.io/badge/Next.js-15-black)
+![React](https://img.shields.io/badge/React-19-61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-v4-38BDF8)
+![Vercel](https://img.shields.io/badge/Deploy-Vercel-black)
+![GitHub Actions](https://img.shields.io/badge/CI-GitHub_Actions-2088FF)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+---
+
+## Sobre
+
+A **Cyborg Tecnologia** é uma empresa brasileira especializada em engenharia de software, arquitetura de domínio e desenvolvimento de plataformas institucionais.
+
+Nosso propósito é transformar problemas complexos em sistemas sustentáveis, documentados e escaláveis, aplicando princípios de Domain-Driven Design, Clean Architecture e Engenharia de Plataformas.
+
+---
+
+# Nossa Engenharia
+
+Não desenvolvemos apenas aplicações.
+
+Projetamos domínios.
+
+Documentamos conhecimento.
+
+Construímos runtimes institucionais.
+
+Criamos plataformas preparadas para evoluir durante anos.
+
+---
+
+# Filosofia de Engenharia
+
+Todo projeto segue a mesma sequência de construção:
+
+```
+Business
+    ↓
+Domain
+    ↓
+Architecture
+    ↓
+Contracts
+    ↓
+Database
+    ↓
+Implementation
+    ↓
+Deployment
+```
+
+O domínio é a autoridade do sistema.
+
+A interface é apenas sua projeção.
+
+---
+
+# Ecossistema
+
+## 🚖 ALIADO
+
+Plataforma de mobilidade premium baseada em arquitetura de domínio.
+
+Principais módulos:
+
+- Ride Hailing
+- Financial Domain
+- Dispatch Runtime
+- Referral Network
+- PIX Payments
+- Operational Zones
+
+---
+
+## 📈 Cyborg Sniper
+
+Runtime institucional para Quantitative Trading desenvolvido em MQL5.
+
+Arquitetura:
+
+- Signal Engine
+- Context Engine
+- Regime Detection
+- Risk Engine
+- Compliance
+- Portfolio Manager
+- Governance
+- Observability
+
+---
+
+## ⚙️ Rideshare Decision Engine
+
+Motor de decisão para plataformas de mobilidade.
+
+Responsabilidades:
+
+- Sequential Dispatch
+- Driver Matching
+- Runtime Governance
+- Decision Engine
+- Domain Events
+
+---
+
+# Stack
+
+- Next.js 15
+- React 19
+- TypeScript
+- Tailwind CSS v4
+- Vercel
+- GitHub Actions
+
+---
+
+# Desenvolvimento
+
+Instalação
+
+```bash
+npm install
+```
+
+Executar localmente
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3003
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# Build
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Deploy
 
-## Deploy on Vercel
+Fluxo oficial
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+feature/*
+      │
+      ▼
+GitHub
+      │
+      ▼
+Preview Deployment (Vercel)
+      │
+      ▼
+Pull Request
+      │
+      ▼
+main
+      │
+      ▼
+Production
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Todo push na branch **main** gera deploy automático na **Vercel**.
+
+---
+
+# Documentação
+
+```
+docs/
+├── BRAND_GUIDE.md
+├── DESIGN_SYSTEM.md
+├── ARCHITECTURE.md
+└── CONTENT_STRATEGY.md
+```
+
+---
+
+# Roadmap
+
+- [x] Landing Page Institucional
+- [ ] Blog Técnico
+- [ ] Showcase dos Projetos
+- [ ] Centro de Documentação
+- [ ] Estudos de Caso
+- [ ] Área de Contato
+- [ ] Portal de Conteúdo
+
+---
+
+# Licença
+
+MIT License.
+
+---
+
+**Cyborg Tecnologia**
+
+*Engineering platforms, institutional runtimes and domain-driven software.*
