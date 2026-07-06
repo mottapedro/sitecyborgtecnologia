@@ -1,14 +1,18 @@
+import Image from "next/image";
+
 interface LogoProps {
   className?: string;
 }
 
 export function Logo({ className = "" }: LogoProps) {
   return (
-    <span
-      aria-hidden
-      className={`bg-linear-to-r from-primary to-secondary bg-clip-text font-mono text-base font-semibold tracking-tighter text-transparent ${className}`}
-    >
-      {"<>"}
-    </span>
+    <Image
+      src="/brand/logo-icon.png"
+      alt="Cyborg Tecnologia"
+      width={95}
+      height={30}
+      className={`h-6 w-auto ${className}`}
+      priority
+    />
   );
 }

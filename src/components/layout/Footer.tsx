@@ -1,18 +1,22 @@
+import Image from "next/image";
 import Link from "next/link";
 import { footerNavigation } from "@/content/navigation";
 import { socialLinks } from "@/content/social";
 import { company } from "@/content/company";
-import { Container, Logo } from "@/design-system";
+import { Container } from "@/design-system";
 
 export function Footer() {
   return (
     <footer className="border-t border-border">
       <Container className="flex flex-col gap-8 py-16 md:flex-row md:items-start md:justify-between">
         <div className="max-w-sm">
-          <div className="flex items-center gap-2">
-            <Logo />
-            <span className="text-sm font-semibold tracking-wide">{company.name}</span>
-          </div>
+          <Image
+            src="/brand/logo-lockup-horizontal.png"
+            alt={company.name}
+            width={159}
+            height={32}
+            className="h-8 w-auto"
+          />
           <p className="mt-3 text-sm text-muted">{company.tagline}</p>
         </div>
 

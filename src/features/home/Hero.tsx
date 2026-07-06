@@ -6,7 +6,7 @@ export function Hero() {
     <section className="relative overflow-hidden border-b border-border">
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(255,106,26,0.12),_transparent_55%)]"
+        className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(139,43,226,0.18),transparent_55%)]"
       />
       <Container className="relative flex flex-col gap-8 py-28 lg:py-36">
         <Eyebrow>{company.name}</Eyebrow>
