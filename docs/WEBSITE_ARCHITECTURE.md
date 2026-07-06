@@ -48,6 +48,34 @@ Regra de dependência: `app/` e `features/` podem importar de `design-system/`, 
 ## Verificação padrão antes de commit
 
 ```
-npx eslint .
-npx next build
+npm run lint
+npm run typecheck
+npm run build
 ```
+
+Automatizado em CI via `.github/workflows/quality.yml` (`push` em `main` e todo `pull_request`).
+
+## Pipeline de deploy
+
+Mesmo padrão de branches do ALIADO — sem etapas manuais entre PR aprovado e produção:
+
+```
+localhost:3000
+      │
+      ▼
+feature/*  ──git commit──▶  ──git push──▶  GitHub
+                                              │
+                                              ▼
+                                   Vercel (Preview Deployment)
+                                   https://feature-xxx-<hash>.vercel.app
+                                              │
+                                        Pull Request → main
+                                              ▼
+                                   Vercel (Production Deployment)
+```
+
+Convenção de nomes de branch (criar sob demanda, não antecipadamente): `feature/<área>` (ex.: `feature/site-home`, `feature/blog`, `feature/projects`, `feature/documentation`, `feature/contact`, `feature/ecosystem`), `fix/<escopo>` (ex.: `fix/seo`), `docs/<escopo>` (ex.: `docs/brand-guide`).
+
+Configuração Vercel: `vercel.json` na raiz (`framework: nextjs`, `buildCommand: npm run build`, `installCommand: npm install`). A conexão do repositório GitHub ao projeto Vercel (import + preview deployments automáticos) é feita uma única vez pelo dashboard da Vercel — não é algo versionado no repositório.
+
+Variáveis de ambiente: nenhuma obrigatória no lançamento inicial. Candidatas futuras (adicionar ao `vercel.json`/dashboard quando necessário): `NEXT_PUBLIC_SITE_URL`, `NEXT_PUBLIC_GA_ID`, `NEXT_PUBLIC_GTM`, `NEXT_PUBLIC_API_URL`.
