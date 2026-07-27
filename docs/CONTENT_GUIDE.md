@@ -34,6 +34,10 @@ Um runtime, plataforma ou sistema de software que produz valor operacional cont�
 
 Uso corrente no site (pt-BR): **"Ativo Operacional"** — ex.: status do Cyborg Sniper em `src/content/projects.ts`. O termo em inglês, **"Operational Asset"**, é a referência institucional para quando o portal ganhar uma versão EN-US com tradução institucional completa (ver nota em [BRAND_BOOK.md](./BRAND_BOOK.md) §11). Até lá, não introduzir o termo em inglês isoladamente no site — a tradução deve ser completa, não parcial.
 
+### Débito arquitetural futuro — VOC-001
+
+Este glossário nasce embutido no `CONTENT_GUIDE.md` porque hoje tem um único verbete. Quando o vocabulário institucional crescer (ex.: Arquitetura Intelectual, Runtime Institucional, Evidence-Driven Engineering, Arquitetura de Domínio, Engineering Asset, Foundation, Laboratory, Capability, Context, Property, Behavior), ele deve ser extraído para um documento próprio — `docs/VOC-001-institutional-vocabulary.md` — seguindo o mesmo padrão já usado para identidade visual ([ADR-001](./ADR-001-identidade-visual.md)): um documento único como Single Source of Truth, referenciado por `CONTENT_GUIDE.md`, `BRAND_BOOK.md` e demais docs, nunca duplicado entre eles. Critério de gatilho: mais de ~5 verbetes oficiais definidos, ou a primeira vez que um termo do glossário precisar ser citado por três ou mais documentos diferentes.
+
 ## Padrão editorial obrigatório para descrições de produto (`Project.description`)
 
 Este é um elemento da identidade editorial da Cyborg Tecnologia, não apenas uma convenção de conteúdo: toda descrição de produto em `src/content/projects.ts` deve responder, nesta ordem —
