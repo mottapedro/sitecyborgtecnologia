@@ -44,7 +44,7 @@ export const projects: Project[] = [
   {
     slug: "cyborg-sniper",
     name: "Cyborg Sniper",
-    tagline: "Runtime institucional de Quantitative Trading.",
+    tagline: "Ativo operacional da Cyborg Tecnologia para Quantitative Trading.",
     description:
       "Cyborg Sniper é um ativo operacional da Cyborg Tecnologia para trading quantitativo, desenvolvido sobre um Decision-Driven Engine (DDE), integrando governança, gestão de risco, observabilidade e engenharia orientada por evidências.",
     category: "Quantitative Trading",
