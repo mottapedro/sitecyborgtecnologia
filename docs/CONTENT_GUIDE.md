@@ -24,6 +24,16 @@ Sempre:
 - `src/content/projects.ts` — descrições de projeto sempre no formato "o que é → como é construído", nunca "por que você vai amar".
 - `src/content/services.ts` — cada serviço lista `deliverables` concretos, não benefícios abstratos.
 
+## Padrão obrigatório para descrições de produto (`Project.description`)
+
+Toda descrição de produto em `src/content/projects.ts` deve responder, nesta ordem:
+
+1. **Qual problema resolve?** (o domínio/necessidade que o produto endereça)
+2. **Que arquitetura utiliza?** (os componentes/padrões técnicos que sustentam a solução)
+3. **Qual ativo institucional representa** dentro do ecossistema Cyborg Tecnologia?
+
+Vocabulário preferido: arquitetura, governança, domínio, runtime, observabilidade, engenharia, evidências. Nunca "revolucionário", "inovador", "o melhor", "único" — reforça o princípio de linguagem factual e verificável já descrito acima. Ao adicionar um novo produto a `projects.ts`, sua `description` deve seguir esse padrão desde o primeiro commit, garantindo a mesma narrativa institucional em todo o ecossistema (ver [ECOSYSTEM.md](./ECOSYSTEM.md)).
+
 ## Idioma
 
 Todo o conteúdo institucional é em português (pt-BR). Termos técnicos em inglês (Pricing Engine, Dispatch Runtime, Decision Driven Engine) são mantidos no original — não traduzir nomenclatura de arquitetura.

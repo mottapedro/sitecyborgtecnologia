@@ -1,6 +1,6 @@
 export type ProjectStatus =
   | "Em desenvolvimento"
-  | "Runtime Institucional"
+  | "Ativo Operacional"
   | "Pesquisa"
   | "Planejado"
   | "Arquivado";

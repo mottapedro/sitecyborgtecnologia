@@ -13,7 +13,7 @@ export default function ProjetosPage() {
     <Section className="pt-16">
       <Eyebrow>Projetos</Eyebrow>
       <h1 className="mt-4 max-w-3xl text-4xl font-semibold tracking-tight sm:text-5xl">
-        Produtos e runtimes construídos com engenharia de domínio
+        Produtos e runtimes desenvolvidos por meio de Arquiteturas Intelectuais
       </h1>
 
       <div className="mt-16 grid gap-6 md:grid-cols-2">

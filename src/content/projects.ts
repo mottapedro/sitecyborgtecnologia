@@ -6,7 +6,7 @@ export const projects: Project[] = [
     name: "ALIADO",
     tagline: "Plataforma premium de mobilidade urbana.",
     description:
-      "ALIADO é a plataforma de mobilidade urbana da Cyborg Tecnologia, construída sobre um domínio financeiro próprio: precificação dinâmica, liquidação via PIX, rede de indicação e um runtime de despacho em tempo real.",
+      "ALIADO é uma plataforma inteligente de mobilidade construída para conectar passageiros e motoristas por meio de uma rede de indicação, precificação dinâmica e despacho em tempo real, utilizando um domínio financeiro próprio e uma arquitetura orientada por eventos.",
     category: "Plataforma",
     status: "Em desenvolvimento",
     technologies: [
@@ -46,9 +46,9 @@ export const projects: Project[] = [
     name: "Cyborg Sniper",
     tagline: "Runtime institucional de Quantitative Trading.",
     description:
-      "Cyborg Sniper é um runtime institucional para trading quantitativo, construído em torno de um Decision Driven Engine (DDE) com governança, compliance e observabilidade de ponta a ponta.",
+      "Cyborg Sniper é um runtime institucional para trading quantitativo desenvolvido sobre um Decision-Driven Engine (DDE), integrando governança, gestão de risco, observabilidade e engenharia orientada por evidências.",
     category: "Quantitative Trading",
-    status: "Runtime Institucional",
+    status: "Ativo Operacional",
     technologies: [
       "Decision Driven Engine (DDE)",
       "MQL5",
