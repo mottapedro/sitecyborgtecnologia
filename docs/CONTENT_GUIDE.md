@@ -40,13 +40,20 @@ Este glossário nasce embutido no `CONTENT_GUIDE.md` porque hoje tem um único v
 
 ## Padrão editorial obrigatório para descrições de produto (`Project.description`)
 
-Este é um elemento da identidade editorial da Cyborg Tecnologia, não apenas uma convenção de conteúdo: toda descrição de produto em `src/content/projects.ts` deve responder, nesta ordem —
+Este é um elemento da identidade editorial da Cyborg Tecnologia, não apenas uma convenção de conteúdo. Toda descrição de produto em `src/content/projects.ts` deve responder, em até três frases:
 
-1. **Problema** — qual domínio/necessidade o produto endereça.
-2. **Arquitetura** — quais componentes/padrões técnicos sustentam a solução.
-3. **Ativo Institucional** — qual Ativo Operacional (ver glossário acima) o produto representa dentro do ecossistema Cyborg Tecnologia.
+1. **O que ele representa para o ecossistema?** (Ativo)
+2. **Como foi concebido?** (Arquitetura)
+3. **O que ele entrega?** (Capacidades / papel institucional)
 
-Vocabulário preferido: arquitetura, governança, domínio, runtime, observabilidade, engenharia, evidências. Nunca "revolucionário", "inovador", "o melhor", "único" — reforça o princípio de linguagem factual e verificável já descrito acima. Ao adicionar um novo produto a `projects.ts`, sua `description` deve seguir o padrão Problema → Arquitetura → Ativo Institucional desde o primeiro commit, garantindo a mesma narrativa institucional em todo o ecossistema (ver [ECOSYSTEM.md](./ECOSYSTEM.md)).
+A ordem desses três elementos pode variar conforme a natureza do produto — o essencial é que os três apareçam, não a sequência fixa:
+
+- **Produtos voltados ao usuário final** (ex.: ALIADO): abrir pelo **problema/domínio que resolve**, depois a **arquitetura**, fechando com o **papel de ativo institucional** ("...o ativo operacional da Cyborg Tecnologia para o domínio de X").
+- **Runtimes e infraestrutura institucional** (ex.: Cyborg Sniper): abrir já afirmando **o que o produto é como ativo** ("Cyborg Sniper é um ativo operacional da Cyborg Tecnologia para..."), depois a **arquitetura**, fechando com as **capacidades** que ele entrega.
+
+Em ambos os casos, a descrição deve ser coerente com o `status` (badge) do produto — nunca usar um termo no badge e outro na descrição para o mesmo conceito (ex.: badge "Ativo Operacional" com descrição abrindo em "runtime institucional" é a inconsistência que este padrão existe para evitar).
+
+Vocabulário preferido: arquitetura, governança, domínio, runtime, observabilidade, engenharia, evidências. Nunca "revolucionário", "inovador", "o melhor", "único" — reforça o princípio de linguagem factual e verificável já descrito acima. Ao adicionar um novo produto a `projects.ts`, sua `description` deve seguir este padrão desde o primeiro commit, garantindo a mesma narrativa institucional em todo o ecossistema (ver [ECOSYSTEM.md](./ECOSYSTEM.md)).
 
 ## Idioma
 
