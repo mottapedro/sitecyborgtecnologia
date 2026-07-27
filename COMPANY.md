@@ -166,7 +166,7 @@ Principais pilares:
 
 ## Cyborg Sniper
 
-Runtime institucional para Quantitative Trading.
+Ativo operacional institucional para Quantitative Trading.
 
 Arquitetura modular baseada em:
 

@@ -79,7 +79,7 @@ Principais módulos:
 
 ## 📈 Cyborg Sniper
 
-Runtime institucional para Quantitative Trading desenvolvido em MQL5.
+Ativo operacional institucional para Quantitative Trading desenvolvido em MQL5.
 
 Arquitetura:
 

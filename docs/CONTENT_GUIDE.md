@@ -24,15 +24,25 @@ Sempre:
 - `src/content/projects.ts` — descrições de projeto sempre no formato "o que é → como é construído", nunca "por que você vai amar".
 - `src/content/services.ts` — cada serviço lista `deliverables` concretos, não benefícios abstratos.
 
-## Padrão obrigatório para descrições de produto (`Project.description`)
+## Glossário Institucional
 
-Toda descrição de produto em `src/content/projects.ts` deve responder, nesta ordem:
+Vocabulário oficial da Cyborg Tecnologia — termos abaixo têm significado fixo e não devem ser usados de forma solta ou intercambiável com sinônimos.
 
-1. **Qual problema resolve?** (o domínio/necessidade que o produto endereça)
-2. **Que arquitetura utiliza?** (os componentes/padrões técnicos que sustentam a solução)
-3. **Qual ativo institucional representa** dentro do ecossistema Cyborg Tecnologia?
+### Ativo Operacional (Operational Asset)
 
-Vocabulário preferido: arquitetura, governança, domínio, runtime, observabilidade, engenharia, evidências. Nunca "revolucionário", "inovador", "o melhor", "único" — reforça o princípio de linguagem factual e verificável já descrito acima. Ao adicionar um novo produto a `projects.ts`, sua `description` deve seguir esse padrão desde o primeiro commit, garantindo a mesma narrativa institucional em todo o ecossistema (ver [ECOSYSTEM.md](./ECOSYSTEM.md)).
+Um runtime, plataforma ou sistema de software que produz valor operacional contínuo para a organização e cuja evolução é governada por evidências, observabilidade e validação em ambiente real.
+
+Uso corrente no site (pt-BR): **"Ativo Operacional"** — ex.: status do Cyborg Sniper em `src/content/projects.ts`. O termo em inglês, **"Operational Asset"**, é a referência institucional para quando o portal ganhar uma versão EN-US com tradução institucional completa (ver nota em [BRAND_BOOK.md](./BRAND_BOOK.md) §11). Até lá, não introduzir o termo em inglês isoladamente no site — a tradução deve ser completa, não parcial.
+
+## Padrão editorial obrigatório para descrições de produto (`Project.description`)
+
+Este é um elemento da identidade editorial da Cyborg Tecnologia, não apenas uma convenção de conteúdo: toda descrição de produto em `src/content/projects.ts` deve responder, nesta ordem —
+
+1. **Problema** — qual domínio/necessidade o produto endereça.
+2. **Arquitetura** — quais componentes/padrões técnicos sustentam a solução.
+3. **Ativo Institucional** — qual Ativo Operacional (ver glossário acima) o produto representa dentro do ecossistema Cyborg Tecnologia.
+
+Vocabulário preferido: arquitetura, governança, domínio, runtime, observabilidade, engenharia, evidências. Nunca "revolucionário", "inovador", "o melhor", "único" — reforça o princípio de linguagem factual e verificável já descrito acima. Ao adicionar um novo produto a `projects.ts`, sua `description` deve seguir o padrão Problema → Arquitetura → Ativo Institucional desde o primeiro commit, garantindo a mesma narrativa institucional em todo o ecossistema (ver [ECOSYSTEM.md](./ECOSYSTEM.md)).
 
 ## Idioma
 

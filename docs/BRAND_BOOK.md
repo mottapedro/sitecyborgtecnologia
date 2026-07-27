@@ -249,7 +249,7 @@ Características:
 
 ## Cyborg Sniper
 
-Runtime institucional para Quantitative Trading.
+Ativo operacional institucional para Quantitative Trading.
 
 Características:
 
@@ -277,6 +277,8 @@ Nunca utilizar linguagem apelativa.
 Nunca exagerar promessas.
 
 Toda comunicação deve ser baseada em fatos técnicos.
+
+> O glossário institucional oficial (ex.: **Ativo Operacional / Operational Asset**) e o padrão editorial Problema → Arquitetura → Ativo Institucional para descrições de produto estão definidos em [CONTENT_GUIDE.md](./CONTENT_GUIDE.md). O site permanece 100% pt-BR até a tradução institucional completa para EN-US — termos em inglês não devem ser introduzidos isoladamente antes disso.
 
 ---
 
