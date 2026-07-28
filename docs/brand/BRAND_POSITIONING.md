@@ -1,6 +1,6 @@
 # BRAND_POSITIONING.md — Posicionamento Institucional
 
-> Complementa [BRAND_BOOK.md](./BRAND_BOOK.md). Uso: pitch, imprensa, parceiros, apresentações institucionais.
+> Complementa [BRAND_BOOK.md](./BRAND_BOOK.md). Uso: pitch, imprensa, parceiros, apresentações institucionais. Consolidado como decisão institucional fechada em [IGP-001](../institutional/IGP-001-INSTITUTIONAL_POSITIONING.md).
 
 ## Quem somos
 

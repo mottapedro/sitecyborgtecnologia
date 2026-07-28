@@ -1,10 +1,10 @@
 # VISUAL_IDENTITY.md — Identidade Visual
 
-> Complementa [BRAND_BOOK.md](./BRAND_BOOK.md) §5–6, §14 e [ADR-001](./ADR-001-identidade-visual.md). Fonte de implementação: `src/design-system/tokens.ts`, `src/app/globals.css`, `src/design-system/Logo.tsx`. Ativo canônico: `public/identidade.png`.
+> Complementa [BRAND_BOOK.md](./BRAND_BOOK.md) §5–6, §14 e [ADR-001](../adr/ADR-001-identidade-visual.md). Fonte de implementação: `src/design-system/tokens.ts`, `src/app/globals.css`, `src/design-system/Logo.tsx`. Ativo canônico: `public/identidade.png`.
 
 ## Governança
 
-A paleta e o símbolo descritos aqui derivam do logotipo institucional aprovado (`public/identidade.png`), não de uma descrição textual — ver [ADR-001](./ADR-001-identidade-visual.md) para o princípio de governança completo. Qualquer nova aplicação de marca (site, apresentações, redes sociais) deve ser conferida contra esse ativo, não contra este documento isoladamente.
+A paleta e o símbolo descritos aqui derivam do logotipo institucional aprovado (`public/identidade.png`), não de uma descrição textual — ver [ADR-001](../adr/ADR-001-identidade-visual.md) para o princípio de governança completo. Qualquer nova aplicação de marca (site, apresentações, redes sociais) deve ser conferida contra esse ativo, não contra este documento isoladamente.
 
 ## O Símbolo
 
@@ -40,7 +40,7 @@ Gradiente de destaque oficial: `linear-gradient(90deg, #8B2BE2, #B04DFF)` — ap
 - **Roxo (`primary`) é a cor de ação.** Reservado a botões primários, links de navegação em estado de destaque e o traço do `Eyebrow`. Não usar em blocos grandes de fundo.
 - **Magenta (`secondary`) é a cor de distinção.** Usado para sinalizar o ramo "Quantitative Trading" e títulos de destaque em cards (`EngineeringPhilosophy`, detalhe de projeto) — nunca como cor de ação primária (não usar em botões `primary`).
 - **Poucas cores, poucos elementos** (Brand Book §14): qualquer nova seção deve conseguir ser construída só com `background`/`surface`/`border`/`foreground`/`muted`, usando `primary` ou `secondary` como acento pontual — nunca os dois simultaneamente com o mesmo peso visual.
-- **Diferenciação de marcas no ecossistema**: esta paleta (roxo/preto) é exclusiva da Cyborg Tecnologia enquanto organização de engenharia. O ALIADO mantém identidade própria (laranja/dourado, calorosa/humana) — ver nota em [ADR-001](./ADR-001-identidade-visual.md#ecossistema) e [ECOSYSTEM.md](./ECOSYSTEM.md).
+- **Diferenciação de marcas no ecossistema**: esta paleta (roxo/preto) é exclusiva da Cyborg Tecnologia enquanto organização de engenharia. O ALIADO mantém identidade própria (laranja/dourado, calorosa/humana) — ver nota em [ADR-001](../adr/ADR-001-identidade-visual.md#ecossistema) e [ECOSYSTEM.md](../institutional/ECOSYSTEM.md).
 
 ## Débitos de Identidade (Fase 4 do ADR-001 — a resolver em iterações futuras)
 

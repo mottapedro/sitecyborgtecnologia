@@ -36,7 +36,7 @@ Uso corrente no site (pt-BR): **"Ativo Operacional"** — ex.: status do Cyborg 
 
 ### Débito arquitetural futuro — VOC-001
 
-Este glossário nasce embutido no `CONTENT_GUIDE.md` porque hoje tem um único verbete. Quando o vocabulário institucional crescer (ex.: Arquitetura Intelectual, Runtime Institucional, Evidence-Driven Engineering, Arquitetura de Domínio, Engineering Asset, Foundation, Laboratory, Capability, Context, Property, Behavior), ele deve ser extraído para um documento próprio — `docs/VOC-001-institutional-vocabulary.md` — seguindo o mesmo padrão já usado para identidade visual ([ADR-001](./ADR-001-identidade-visual.md)): um documento único como Single Source of Truth, referenciado por `CONTENT_GUIDE.md`, `BRAND_BOOK.md` e demais docs, nunca duplicado entre eles. Critério de gatilho: mais de ~5 verbetes oficiais definidos, ou a primeira vez que um termo do glossário precisar ser citado por três ou mais documentos diferentes.
+Este glossário nasce embutido no `CONTENT_GUIDE.md` porque hoje tem um único verbete. Quando o vocabulário institucional crescer (ex.: Arquitetura Intelectual, Runtime Institucional, Evidence-Driven Engineering, Arquitetura de Domínio, Engineering Asset, Foundation, Laboratory, Capability, Context, Property, Behavior), ele deve ser extraído para um documento próprio — `docs/brand/VOC-001-institutional-vocabulary.md` — seguindo o mesmo padrão já usado para identidade visual ([ADR-001](../adr/ADR-001-identidade-visual.md)): um documento único como Single Source of Truth, referenciado por `CONTENT_GUIDE.md`, `BRAND_BOOK.md` e demais docs, nunca duplicado entre eles. Critério de gatilho: mais de ~5 verbetes oficiais definidos, ou a primeira vez que um termo do glossário precisar ser citado por três ou mais documentos diferentes.
 
 ## Padrão editorial obrigatório para descrições de produto (`Project.description`)
 
@@ -53,7 +53,7 @@ A ordem desses três elementos pode variar conforme a natureza do produto — o 
 
 Em ambos os casos, a descrição deve ser coerente com o `status` (badge) do produto — nunca usar um termo no badge e outro na descrição para o mesmo conceito (ex.: badge "Ativo Operacional" com descrição abrindo em "runtime institucional" é a inconsistência que este padrão existe para evitar).
 
-Vocabulário preferido: arquitetura, governança, domínio, runtime, observabilidade, engenharia, evidências. Nunca "revolucionário", "inovador", "o melhor", "único" — reforça o princípio de linguagem factual e verificável já descrito acima. Ao adicionar um novo produto a `projects.ts`, sua `description` deve seguir este padrão desde o primeiro commit, garantindo a mesma narrativa institucional em todo o ecossistema (ver [ECOSYSTEM.md](./ECOSYSTEM.md)).
+Vocabulário preferido: arquitetura, governança, domínio, runtime, observabilidade, engenharia, evidências. Nunca "revolucionário", "inovador", "o melhor", "único" — reforça o princípio de linguagem factual e verificável já descrito acima. Ao adicionar um novo produto a `projects.ts`, sua `description` deve seguir este padrão desde o primeiro commit, garantindo a mesma narrativa institucional em todo o ecossistema (ver [ECOSYSTEM.md](../institutional/ECOSYSTEM.md)).
 
 ## Idioma
 

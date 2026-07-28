@@ -1,6 +1,6 @@
 # ECOSYSTEM.md — Ecossistema Cyborg
 
-> Complementa [BRAND_BOOK.md](./BRAND_BOOK.md) §9. Fonte de implementação: `src/content/ecosystem.ts`, `src/content/projects.ts`.
+> Complementa [BRAND_BOOK.md](../brand/BRAND_BOOK.md) §9. Fonte de implementação: `src/content/ecosystem.ts`, `src/content/projects.ts`.
 
 ## Visão institucional completa (Brand Book §9)
 
@@ -49,7 +49,7 @@ Cada projeto no ecossistema é modelado pelo tipo `Project` (`src/types/project.
 
 Cada produto do ecossistema herda a mesma linguagem visual estrutural (tipografia, grid, iconografia, motion, arquitetura do símbolo `<>`), mas pode ter sua própria cor de destaque — isso é intencional, não uma inconsistência a corrigir:
 
-- **Cyborg Tecnologia** (este portal): roxo/magenta sobre preto (`primary` `#8B2BE2` / `secondary` `#B04DFF`) — transmite engenharia, arquitetura de software, documentação e plataformas tecnológicas. Ver [ADR-001](./ADR-001-identidade-visual.md) e [VISUAL_IDENTITY.md](./VISUAL_IDENTITY.md).
+- **Cyborg Tecnologia** (este portal): roxo/magenta sobre preto (`primary` `#8B2BE2` / `secondary` `#B04DFF`) — transmite engenharia, arquitetura de software, documentação e plataformas tecnológicas. Ver [ADR-001](../adr/ADR-001-identidade-visual.md) e [VISUAL_IDENTITY.md](../brand/VISUAL_IDENTITY.md).
 - **ALIADO**: mantém identidade própria calorosa e humana (laranja/dourado), reforçando mobilidade, proximidade e relacionamento — a paleta laranja/dourado usada nas primeiras iterações deste portal, antes da adoção do ADR-001, na verdade pertence à identidade do ALIADO, não à da Cyborg Tecnologia.
 
 Essa separação fortalece o posicionamento institucional de cada produto preservando a coerência do ecossistema como um todo.

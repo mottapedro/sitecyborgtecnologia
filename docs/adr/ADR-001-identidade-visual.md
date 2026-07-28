@@ -12,7 +12,7 @@ Todos os documentos, componentes e tokens passam a utilizar essa identidade como
 
 > A identidade visual oficial é um artefato de arquitetura. Ela não é definida por descrições textuais, mas pelos ativos institucionais aprovados da marca. Toda documentação deve permanecer consistente com esses ativos.
 
-Este princípio supera a decisão anterior: a paleta laranja/dourado descrita no briefing textual original (`AGENTS.md`) foi substituída pela paleta roxo/magenta do logotipo aprovado. Ver histórico da migração em [VISUAL_IDENTITY.md](./VISUAL_IDENTITY.md).
+Este princípio supera a decisão anterior: a paleta laranja/dourado descrita no briefing textual original (`AGENTS.md`) foi substituída pela paleta roxo/magenta do logotipo aprovado. Ver histórico da migração em [VISUAL_IDENTITY.md](../brand/VISUAL_IDENTITY.md).
 
 ## Paleta Oficial
 
@@ -27,7 +27,7 @@ Este princípio supera a decisão anterior: a paleta laranja/dourado descrita no
 
 Gradiente de destaque: `linear-gradient(90deg, #8B2BE2, #B04DFF)`.
 
-Mapeamento para os tokens de implementação (`src/design-system/tokens.ts`, `src/app/globals.css`): ver tabela em [VISUAL_IDENTITY.md](./VISUAL_IDENTITY.md).
+Mapeamento para os tokens de implementação (`src/design-system/tokens.ts`, `src/app/globals.css`): ver tabela em [VISUAL_IDENTITY.md](../brand/VISUAL_IDENTITY.md).
 
 ## Linguagem Visual
 
@@ -70,11 +70,11 @@ Cyborg Tecnologia
 
 Cada produto pode possuir sua própria cor de destaque, mantendo: tipografia, grid, iconografia, motion, linguagem visual, arquitetura do símbolo.
 
-**Nota de diferenciação de marcas**: o ALIADO mantém identidade própria calorosa e humana (laranja/dourado), reforçando mobilidade, proximidade e relacionamento — deliberadamente distinta da identidade roxa/preta da Cyborg Tecnologia, que transmite engenharia, arquitetura de software, documentação e plataformas tecnológicas. Essa separação fortalece o posicionamento institucional de cada produto preservando a coerência do ecossistema como um todo. Ver [ECOSYSTEM.md](./ECOSYSTEM.md).
+**Nota de diferenciação de marcas**: o ALIADO mantém identidade própria calorosa e humana (laranja/dourado), reforçando mobilidade, proximidade e relacionamento — deliberadamente distinta da identidade roxa/preta da Cyborg Tecnologia, que transmite engenharia, arquitetura de software, documentação e plataformas tecnológicas. Essa separação fortalece o posicionamento institucional de cada produto preservando a coerência do ecossistema como um todo. Ver [ECOSYSTEM.md](../institutional/ECOSYSTEM.md).
 
 ## Fases de Migração
 
 - **Fase 1 — Design Tokens / CSS Variables / Tailwind Theme**: concluída (`src/design-system/tokens.ts`, `src/app/globals.css`).
 - **Fase 2 — Componentes compartilhados**: concluída (`Button`, `Card`, `Badge`, `Eyebrow`, `Logo`, `Header`, `Footer`, e todos os usos em `features/` e `app/**/page.tsx`).
 - **Fase 3 — Documentação**: concluída (este ADR, `VISUAL_IDENTITY.md`, `DESIGN_SYSTEM.md`, `TYPOGRAPHY.md`, `BRAND_BOOK.md`, `ECOSYSTEM.md`, `AGENTS.md`).
-- **Fase 4 — Ativos**: pendente. Favicon, Open Graph image, manifest/ícones PWA e social cards ainda não foram gerados como arquivos rasterizados — ver débito registrado em [VISUAL_IDENTITY.md](./VISUAL_IDENTITY.md). Um SVG do símbolo (`src/app/icon.svg`) foi criado como primeira aplicação do gradiente oficial.
+- **Fase 4 — Ativos**: pendente. Favicon, Open Graph image, manifest/ícones PWA e social cards ainda não foram gerados como arquivos rasterizados — ver débito registrado em [VISUAL_IDENTITY.md](../brand/VISUAL_IDENTITY.md). Um SVG do símbolo (`src/app/icon.svg`) foi criado como primeira aplicação do gradiente oficial.

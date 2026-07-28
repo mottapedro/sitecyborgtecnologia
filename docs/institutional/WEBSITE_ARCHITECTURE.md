@@ -1,6 +1,6 @@
 # WEBSITE_ARCHITECTURE.md — Arquitetura do Portal
 
-> Complementa [DESIGN_SYSTEM.md](./DESIGN_SYSTEM.md) e [ECOSYSTEM.md](./ECOSYSTEM.md).
+> Complementa [DESIGN_SYSTEM.md](../brand/DESIGN_SYSTEM.md) e [ECOSYSTEM.md](./ECOSYSTEM.md).
 
 ## Stack
 

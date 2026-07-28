@@ -169,7 +169,7 @@ Visualmente o símbolo também remete a:
 
 Essa dupla interpretação faz parte da identidade da empresa.
 
-> A paleta oficial (roxo/magenta sobre preto) e a aplicação canônica do símbolo estão definidas em [ADR-001](./ADR-001-identidade-visual.md) e [VISUAL_IDENTITY.md](./VISUAL_IDENTITY.md), a partir do logotipo aprovado `public/identidade.png`.
+> A paleta oficial (roxo/magenta sobre preto) e a aplicação canônica do símbolo estão definidas em [ADR-001](../adr/ADR-001-identidade-visual.md) e [VISUAL_IDENTITY.md](./VISUAL_IDENTITY.md), a partir do logotipo aprovado `public/identidade.png`.
 
 ---
 
@@ -226,7 +226,7 @@ Cyborg Tecnologia
 
 Novos produtos deverão respeitar esta identidade.
 
-> Nota de implementação: o conteúdo do site (`src/content/ecosystem.ts`) reflete hoje os ramos Plataforma, Quantitative Trading, Engenharia, Pesquisa & Desenvolvimento, Open Source e Conteúdo Técnico. Ver [ECOSYSTEM.md](./ECOSYSTEM.md) para o mapeamento entre esta visão institucional e o conteúdo publicado.
+> Nota de implementação: o conteúdo do site (`src/content/ecosystem.ts`) reflete hoje os ramos Plataforma, Quantitative Trading, Engenharia, Pesquisa & Desenvolvimento, Open Source e Conteúdo Técnico. Ver [ECOSYSTEM.md](../institutional/ECOSYSTEM.md) para o mapeamento entre esta visão institucional e o conteúdo publicado.
 
 ---
 

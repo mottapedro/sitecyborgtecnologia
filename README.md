@@ -180,10 +180,9 @@ Todo push na branch **main** gera deploy automático na **Vercel**.
 
 ```
 docs/
-├── BRAND_GUIDE.md
-├── DESIGN_SYSTEM.md
-├── ARCHITECTURE.md
-└── CONTENT_STRATEGY.md
+├── institutional/   # quem é a empresa (COMPANY, ECOSYSTEM, IGP-001, WEBSITE_ARCHITECTURE)
+├── brand/           # como comunicar (BRAND_BOOK, BRAND_POSITIONING, CONTENT_GUIDE, DESIGN_SYSTEM, ...)
+└── adr/             # decisões arquiteturais registradas (ADR-001, ...)
 ```
 
 ---
