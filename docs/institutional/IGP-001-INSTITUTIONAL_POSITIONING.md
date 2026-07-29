@@ -19,7 +19,7 @@ Aplica-se a:
 ## Classificação
 
 - **Indústria**: Deep Tech
-- **Disciplina central**: Engenharia de Software
+- **Disciplina central**: Software Engineering, pesquisa e arquitetura
 - **Modelo**: Engenharia de domínio aplicada à construção de plataformas institucionais
 
 ## Pergunta institucional
@@ -39,6 +39,17 @@ Síntese (ver os documentos acima para a versão completa e autoritativa):
 
 Nenhuma nova pesquisa de posicionamento está aberta. Qualquer proposta de mudança de essência institucional deve ser tratada como revisão deste IGP-001 (não como um documento novo e paralelo), atualizando primeiro `BRAND_BOOK.md`/`BRAND_POSITIONING.md` e só então propagando para código (site, apresentações, etc.) — mesmo princípio de governança já estabelecido pelo [ADR-001](../adr/ADR-001-identidade-visual.md) para identidade visual.
 
+### Essência institucional (frase de referência)
+
+> Cuja essência é Software Engineering, pesquisa e arquitetura.
+
+Esta frase é a referência permanente para orientar qualquer recomendação futura sobre posicionamento institucional da Cyborg Tecnologia — inclusive para agentes de IA trabalhando neste repositório. Não substitui a síntese completa acima; é o resumo mínimo da disciplina central da empresa, a ser citado sempre que uma decisão de posicionamento precisar de uma âncora rápida.
+
 ## Critério de reabertura
 
 Este IGP só deve ser reaberto (Status voltando a `OPEN`) diante de uma mudança real de modelo de negócio, público-alvo ou disciplina central — não para ajustes de redação, que são tratados diretamente em `BRAND_BOOK.md`/`BRAND_POSITIONING.md`/`CONTENT_GUIDE.md` sem necessidade de um novo IGP.
+
+## Histórico de revisão
+
+- **v1** — Decisão inicial, consolidando `BRAND_BOOK.md`/`BRAND_POSITIONING.md`.
+- **v2** — Adiciona a frase de referência da essência institucional ("Software Engineering, pesquisa e arquitetura") à Classificação e como citação explícita. Revisão de redação/precisão sobre uma decisão já fechada — não reabre o Status, conforme o critério acima.
