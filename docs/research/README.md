@@ -2,6 +2,8 @@
 
 Pesquisa produzida pelos laboratórios da Cyborg Tecnologia.
 
-Escopo pretendido: LAB, VH, experimentos, evidências, investigações científicas que sustentam decisões de engenharia e posicionamento.
+Escopo: laboratórios (`LAB-00X`), hipóteses visuais (`VH-00X`), experimentos, evidências, investigações que sustentam decisões de engenharia e posicionamento — sempre a montante de uma especificação em `docs/brand/` ou `docs/institutional/`, nunca implementadas direto em código.
 
-Área reservada para evolução futura — sem documentos ainda. Ao adicionar o primeiro documento de pesquisa, remover esta nota de reserva e manter apenas a descrição de escopo acima.
+## Documentos
+
+- [`LAB-001-VISUAL_IDENTITY_LAB.md`](./LAB-001-VISUAL_IDENTITY_LAB.md) — formaliza o Laboratório de Identidade Visual: missão, metodologia, ciclo de vida de hipóteses, processo de aprovação (LAB → Review → Baseline → WEB).
